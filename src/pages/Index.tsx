@@ -1,8 +1,8 @@
 import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Gamepad2, Smartphone, Users } from "lucide-react";
+import { Gamepad2, Smartphone, Users, Rocket } from "lucide-react";
 import studioLogo from "@/assets/studio-logo.png";
+import comingSoonGame from "@/assets/coming-soon-game.jpg";
 
 const Index = () => {
   return (
@@ -25,13 +25,63 @@ const Index = () => {
               Crafting immersive Android gaming experiences that captivate players worldwide. 
               We blend innovative gameplay with cutting-edge technology to create unforgettable adventures.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg hover-lift glow-primary"
-            >
-              <Gamepad2 className="mr-2 h-5 w-5" />
-              Explore Our Games
-            </Button>
+          </div>
+        </div>
+      </section>
+      
+      {/* Coming Soon Section */}
+      <section className="py-20 bg-muted/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center mb-4">
+              <Rocket className="w-8 h-8 text-primary mr-3 animate-float" />
+              <h2 className="text-4xl font-bold text-gradient">
+                Coming Soon
+              </h2>
+            </div>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Get ready for our most ambitious project yet
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <Card className="card-gradient overflow-hidden border-border hover-lift">
+              <div className="grid md:grid-cols-2 gap-0">
+                <div className="relative">
+                  <img 
+                    src={comingSoonGame} 
+                    alt="Cosmic Odyssey - Coming Soon Game" 
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent md:hidden"></div>
+                </div>
+                <div className="p-8 flex flex-col justify-center">
+                  <h3 className="text-3xl font-bold text-gradient mb-4">
+                    Cosmic Odyssey
+                  </h3>
+                  <p className="text-foreground/90 mb-6 leading-relaxed">
+                    Embark on an epic space adventure through stunning galaxies. Navigate asteroid fields, 
+                    discover alien worlds, and upgrade your ship in this action-packed space exploration game. 
+                    With intuitive touch controls and breathtaking visuals optimized for Android devices.
+                  </p>
+                  <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+                    <span className="flex items-center">
+                      <Gamepad2 className="w-4 h-4 mr-1" />
+                      Action/Adventure
+                    </span>
+                    <span className="flex items-center">
+                      <Smartphone className="w-4 h-4 mr-1" />
+                      Android Optimized
+                    </span>
+                  </div>
+                  <div className="mt-6">
+                    <span className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium">
+                      Launch: Q2 2024
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
