@@ -19,7 +19,7 @@ const Navigation = () => {
               className="w-10 h-10 animate-glow"
             />
             <span className="text-xl font-bold text-gradient">
-              GameForge Studio
+              Spirit Shadow Studio
             </span>
           </Link>
           

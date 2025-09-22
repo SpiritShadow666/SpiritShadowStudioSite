@@ -15,11 +15,11 @@ const Index = () => {
           <div className="animate-fade-in">
             <img 
               src={studioLogo} 
-              alt="GameForge Studio Logo" 
+              alt="Spirit Shadow Studio Logo" 
               className="w-24 h-24 mx-auto mb-6 animate-float"
             />
             <h1 className="text-6xl font-bold text-gradient mb-6">
-              GameForge Studio
+              Spirit Shadow Studio
             </h1>
             <p className="text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
               Crafting immersive Android gaming experiences that captivate players worldwide. 
@@ -91,7 +91,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gradient mb-4">
-              Why Choose GameForge?
+              Why Choose Spirit Shadow?
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               We're passionate about creating games that bring joy and excitement to millions of Android users
