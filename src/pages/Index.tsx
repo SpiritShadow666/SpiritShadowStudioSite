@@ -16,7 +16,7 @@ const Index = () => {
             <img 
               src={studioLogo} 
               alt="Spirit Shadow Studio Logo" 
-              className="w-52 h-52 mx-auto mb-6 animate-float"
+              className="w-68 h-68 mx-auto mb-6 animate-float"
             />
             <h1 className="text-6xl font-bold text-gradient mb-6">
               Spirit Shadow Studio
