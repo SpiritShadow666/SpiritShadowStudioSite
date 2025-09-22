@@ -74,7 +74,7 @@ const Index = () => {
                   </div>
                   <div className="mt-6">
                     <span className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium">
-                      Launch: Q2 2024
+                      Launch: Q1 2026
                     </span>
                   </div>
                 </div>
