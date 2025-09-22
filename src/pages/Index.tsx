@@ -57,12 +57,10 @@ const Index = () => {
                 </div>
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-3xl font-bold text-gradient mb-4">
-                    Cosmic Odyssey
+                    Vanguard
                   </h3>
                   <p className="text-foreground/90 mb-6 leading-relaxed">
-                    Embark on an epic space adventure through stunning galaxies. Navigate asteroid fields, 
-                    discover alien worlds, and upgrade your ship in this action-packed space exploration game. 
-                    With intuitive touch controls and breathtaking visuals optimized for Android devices.
+                    a fantasy-themed card game where players summon powerful creatures, cast spells, and battle across immersive campaigns. Build your custom deck, unlock legendary cards, and conquer challenging foes in both PvE and competitive modes.
                   </p>
                   <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                     <span className="flex items-center">
