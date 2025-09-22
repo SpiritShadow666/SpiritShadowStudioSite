@@ -4,6 +4,7 @@ import studioLogo from "@/assets/studio-logo.png";
 
 const Navigation = () => {
   const location = useLocation();
+
   
   const isActive = (path: string) => location.pathname === path;
   
