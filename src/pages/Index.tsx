@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 import { Gamepad2, Smartphone, Users, Rocket } from "lucide-react";
 import studioLogo from "@/assets/studio-logo.png";
-import comingSoonGame from "@/assets/coming-soon-game.jpg";
+import comingSoonGame from "@/assets/coming-soon-game.png";
 
 const Index = () => {
   return (
