@@ -5,7 +5,7 @@ const Privacy = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -17,85 +17,122 @@ const Privacy = () => {
               How we collect, use, and protect your information
             </p>
           </div>
-          
+
           {/* Privacy Policy Content */}
           <Card className="card-gradient p-8 border-border">
             <div className="prose prose-invert max-w-none space-y-8">
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  1. Information We Collect
+                  1. Interpretation and Definitions
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  GameForge Studio collects minimal information necessary to provide and improve our gaming experiences. This may include device information, gameplay statistics, and crash reports to ensure optimal performance across Android devices.
+                  Words with initial capital letters have meanings defined under the following conditions.
+                </p>
+                <p className="text-foreground/90 leading-relaxed">
+                  <strong>Account</strong> means a unique account created for You to access our Service. <br />
+                  <strong>Application</strong> refers to Vanguard. <br />
+                  <strong>Company</strong> refers to Spirit Shadow Studio (the developer of Vanguard). <br />
+                  <strong>Device</strong> means any device that can access the Service such as a computer, mobile phone or tablet. <br />
+                  <strong>Personal Data</strong> is any information that relates to an identified or identifiable individual. <br />
+                  <strong>Service</strong> refers to the Application. <br />
+                  <strong>You</strong> means the individual accessing or using the Service.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  2. How We Use Your Information
+                  2. Collecting and Using Your Personal Data
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  The information we collect is used to enhance your gaming experience, fix bugs, improve game performance, and develop new features. We never sell your personal information to third parties.
+                  <strong>Personal Data:</strong> Email address, Usage Data <br />
+                  <strong>Usage Data:</strong> Includes IP address, browser type, pages visited, and device information.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  3. Data Storage and Security
+                  3. Use of Your Personal Data
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  Your data is stored securely using industry-standard encryption methods. We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction.
+                  We may use Your data to provide and maintain our services, manage accounts, contact You, analyze usage, or comply with legal obligations.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  4. Third-Party Services
+                  4. Sharing of Your Personal Data
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  Our games may integrate with third-party services such as Google Play Games, advertising networks, and analytics providers. These services have their own privacy policies, and we encourage you to review them.
+                  We may share your information with service providers, affiliates, business partners, or during business transfers. Your data is never sold or rented.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  5. Children's Privacy
+                  5. Retention and Deletion
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  We are committed to protecting the privacy of children. Our games do not knowingly collect personal information from children under 13 years of age without parental consent.
+                  Data is kept only as long as necessary. You can request deletion by contacting us at the email below.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  6. Your Rights
+                  6. Security
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  You have the right to access, update, or delete your personal information. You can also opt out of certain data collection practices through your device settings or by contacting us directly.
+                  We take data protection seriously but no method of transmission is 100% secure.
                 </p>
               </section>
-              
+
               <section>
                 <h2 className="text-2xl font-semibold text-primary mb-4">
-                  7. Contact Us
+                  7. Children’s Privacy
                 </h2>
                 <p className="text-foreground/90 leading-relaxed">
-                  If you have any questions about this Privacy Policy or our data practices, please contact us at: 
-                  <span className="text-accent font-medium"> privacy@gameforge-studio.com</span>
+                  We do not knowingly collect information from anyone under 13. If you believe your child has provided us data, please contact us.
                 </p>
               </section>
-              
+
+              <section>
+                <h2 className="text-2xl font-semibold text-primary mb-4">
+                  8. External Links
+                </h2>
+                <p className="text-foreground/90 leading-relaxed">
+                  Our app may contain links to third-party websites. We are not responsible for their content or privacy policies.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-primary mb-4">
+                  9. Changes to This Privacy Policy
+                </h2>
+                <p className="text-foreground/90 leading-relaxed">
+                  We may update this policy and will notify users by updating the date at the top of this page.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-primary mb-4">
+                  10. Contact Us
+                </h2>
+                <p className="text-foreground/90 leading-relaxed">
+                  If you have any questions about this Privacy Policy, You can contact us:<br />
+                  Email: <span className="text-accent font-medium">spiritshadow.studio@gmail.com</span>
+                </p>
+              </section>
+
               <section className="border-t border-border pt-6">
                 <p className="text-muted-foreground text-sm">
-                  Last updated: {new Date().toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
+                  Last updated: {new Date().toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
                   })}
                 </p>
               </section>
-              
+
             </div>
           </Card>
         </div>
